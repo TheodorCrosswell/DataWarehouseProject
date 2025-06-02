@@ -7,7 +7,7 @@ This script creates a stored procedure that loads data from .csv files into the 
 -Bronze.CRM_SALES_DETAILS
 -Bronze.ERP_CUSTOMER_INFO
 -Bronze.ERP_CUSTOMER_COUNTRY
--Bronze.ERP_CUSTOMER_CATEGORIES
+-Bronze.ERP_PRODUCT_CATEGORIES
 --------------------------------------------------------------------------------------------------
 To run this script:
 -Make sure you are using the correct database (USE DataWarehouseProject;)
