@@ -7,7 +7,7 @@ This script drops and then creates the tables used by Bronze layer of the Data W
 -Bronze.CRM_SALES_DETAILS
 -Bronze.ERP_CUSTOMER_INFO
 -Bronze.ERP_CUSTOMER_COUNTRY
--Bronze.ERP_CUSTOMER_CATEGORIES
+-Bronze.ERP_PRODUCT_CATEGORIES
 --------------------------------------------------------------------------------------------------
 To run this script:
 -Make sure you are using the correct database (USE DataWarehouseProject;)
