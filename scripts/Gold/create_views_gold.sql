@@ -1,3 +1,44 @@
+--MSSQL
+/*
+--------------------------------------------------------------------------------------------------
+    This script creates three views in the Gold layer of the 
+    data warehouse:
+
+    1. gold.dimension_customers - Provides a structured customer 
+       dimension, integrating CRM and ERP data sources, handling 
+       gender inconsistencies, and assigning a unique customer key.
+    
+    2. gold.dimension_products - Defines a product dimension with 
+       hierarchical category and subcategory attributes, filtering 
+       out discontinued products and ensuring a structured product 
+       key.
+
+    3. gold.fact_sales - Establishes a fact table for sales 
+       transactions, integrating customer and product data to 
+       enable analytics-driven reporting.
+
+--------------------------------------------------------------------------------------------------
+To run this script:
+    1. Ensure that the Silver-layer tables:
+       - silver.crm_customer_info
+       - silver.crm_product_info
+       - silver.crm_sales_details
+       - silver.erp_customer_info
+       - silver.erp_customer_country
+       - silver.erp_product_categories
+       exist and contain relevant data.
+
+    2. Execute this script in SQL Server Management Studio (SSMS) 
+
+    3. Verify that the views are correctly created by running:
+       SELECT * FROM gold.dimension_customers;
+       SELECT * FROM gold.dimension_products;
+       SELECT * FROM gold.fact_sales;
+
+--------------------------------------------------------------------------------------------------
+*/
+
+
 CREATE
 	OR
 
