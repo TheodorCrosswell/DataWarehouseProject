@@ -3,9 +3,8 @@ This project is designed to structure, store, and query data in the form of a Da
 
 ## Features
 - **Layered Architecture**: Bronze, Silver, and Gold tables ensure **progressive data refinement**.
-- **Optimized Schema**: Fact tables and dimensions **integrate** seamlessly to support analytical queries.
+- **Data Integration**: Fact tables and dimensions **integrate** seamlessly to support analytical queries.
 - **Stored Procedures & Functions**: Automate data transformations and table relationships.
-- **Exception Handling & Debugging**: Improved error handling for query integrity.
 - **Performance Monitoring**: Records query duration in order to highlight any issues.
 
 ## Table Integration
